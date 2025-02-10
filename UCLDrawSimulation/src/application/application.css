@@ -1,0 +1,77 @@
+.button-regular {
+	
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-color: linear-gradient(to right, rgba(74, 216, 221, 1.0), rgba(34, 131, 194, 1.0));
+	-fx-text-fill : white;
+	-fx-background-color: linear-gradient(to right, rgba(34, 131, 194, 1.0), rgba(4, 26, 120, 1.0));
+	-fx-blend-mode : none;
+	-fx-effect: dropshadow(gaussian, rgba(20, 90, 180, 0.8), 10, 0.7, 0, 0);
+}
+
+.button-regular:hover {
+	
+	-fx-cursor: hand;
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-color: linear-gradient(to right, rgba(74, 216, 221, 1.0), rgba(34, 131, 194, 1.0));
+	-fx-text-fill : black;
+	-fx-background-color : linear-gradient(to right, rgba(34, 131, 194, 1.0), rgba(4, 26, 120, 1.0));
+	-fx-effect: dropshadow(gaussian, rgba(110, 230, 240, 0.8), 30, 0.5, 0, 0);
+	-fx-blend-mode : add;
+	-fx-scale-x : 1.075;
+	-fx-scale-y : 1.075;
+}
+
+.button-regular:pressed {
+	
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-color: linear-gradient(to right, rgba(74, 216, 221, 1.0), rgba(34, 131, 194, 1.0));
+	-fx-text-fill : white;
+	-fx-background-color : linear-gradient(to right, rgba(34, 131, 194, 1.0), rgba(4, 26, 120, 1.0));
+	-fx-blend-mode : none;
+	-fx-translate-y : 3;
+}
+
+.button-cancel {
+	
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-color: linear-gradient(to right, rgba(74, 216, 221, 1.0), rgba(34, 131, 194, 1.0));
+	-fx-border-radius: 30 30 30 30;
+	-fx-text-fill : white;
+	-fx-background-color: linear-gradient(to right, rgba(34, 131, 194, 1.0), rgba(4, 26, 120, 1.0));
+	-fx-background-radius: 30 30 30 30;
+	-fx-blend-mode : none;
+	-fx-effect: dropshadow(gaussian, rgba(20, 90, 180, 0.8), 10, 0.7, 0, 0);
+}
+
+.button-cancel:hover {
+	
+	-fx-cursor: hand;
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-color: linear-gradient(to right, rgba(74, 216, 221, 1.0), rgba(34, 131, 194, 1.0));
+	-fx-border-radius: 30 30 30 30;
+	-fx-text-fill : black;
+	-fx-background-color : linear-gradient(to right, rgba(34, 131, 194, 1.0), rgba(4, 26, 120, 1.0));
+	-fx-background-radius: 160 160 160 160;
+	-fx-effect: dropshadow(gaussian, rgba(110, 230, 240, 0.8), 30, 0.5, 0, 0);
+	-fx-blend-mode : add;
+	-fx-scale-x : 1.075;
+	-fx-scale-y : 1.075;
+}
+
+.button-cancel:pressed {
+	
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-color: linear-gradient(to right, rgba(74, 216, 221, 1.0), rgba(34, 131, 194, 1.0));
+	-fx-border-radius: 30 30 30 30;
+	-fx-text-fill : white;
+	-fx-background-color : linear-gradient(to right, rgba(34, 131, 194, 1.0), rgba(4, 26, 120, 1.0));
+	-fx-background-radius: 160 160 160 160;
+	-fx-blend-mode : none;
+	-fx-translate-y : 3;
+}
